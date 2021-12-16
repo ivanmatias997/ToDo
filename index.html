@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<meta name="description" content="Esta pagina será usada como práctica para aplicar los contenidos aprendidos en HTML, CSS Y JavaScript">
+	<meta name="author" content="Filipón Iván Matías">
+	<meta name="robots" content="index">
+	<title> ❤Lista Todo❤ </title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" type="text/css" href="normalize.css"> --> 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+<div class="container">
+
+	<h1 class="text-center my-5">Lista ToDo</h1>
+
+	<form id="formulario" class="form">
+		<div class="form-floating mb-3">
+			<input type="text" class="form-control" id="floatingInput" placeholder="ToDo">
+			<label for="floatingInput">Ingrese la tarea 😀</label>
+		</div>
+		<button type="submit" class="form-control btn btn-primary btn-block">Agregar</button>
+	</form>
+	
+
+	<div id="listaTareas" class="mt-3">
+		
+
+	</div>
+</div>
+
+ 
+<template id="template">
+
+	<div class="alert alert-warning d-flex justify-content-between align-items-center">
+		<p>Tarea #1 </p>
+		<h3 class="mb-0">
+			<i class="fas fa-check-circle text-success" type="button"></i>
+			<i class="fas fa-minus-circle text-danger" type="button"></i>
+	
+		</h3>
+	</div>
+
+</template>
+
+
+
+<script src="app.js" type="text/javascript"></script>
+</body>
+</html>
+
+
